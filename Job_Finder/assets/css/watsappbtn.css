@@ -1,0 +1,9 @@
+.watsappbtn {
+background-color:red;
+color:white;
+text-align:center;
+font-size:16px
+padding;16px 32px;
+}
+
+.watsappbtn.hover {opacity: 1}
