@@ -1,0 +1,231 @@
+body{
+    overflow-x: hidden;
+}
+
+/*
+.hero{
+    width: 100%;
+}
+.hero-img-txt{
+    background-image: url(imges/grp.jpg);width: 100%; height: 400px; background-size: cover; background-repeat: no-repeat; margin-top: 0px;
+    margin-bottom: 90px;
+}
+.hero-img-txt ::before{
+    background-color: #282979ae;
+}
+.ht1{
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    padding-left: 200px;
+}
+.ht2{
+    font-size: 28px;
+    color: white;
+}
+.ht0{
+    width: 600px;
+    position: absolute;
+    left: 30%;
+    top: 5%;
+
+}*/
+
+.hero-img-txt{
+    width: 100%;
+    height: 300px;
+    background-image: url(imges/grp.jpg);
+    background-size: cover;
+    margin-bottom: 200px;
+}
+
+.overlay{
+    width: 100%;
+    height: 300px;
+    background-color: #282979ae;
+
+}
+
+.h1,.h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.h1{
+    padding-top: 100px;
+    font-size: 50px;
+}
+.h2{
+    font-size: 25px;
+    margin-top: -30px;
+    text-align: center;
+}
+/*--------------------2nd hero-----------------------------*/
+.hero2{
+   width: 100%; 
+   height: 400px;
+   background-image: url(imges/grlvacum.jpg);
+   background-size: cover;
+   background-position: top;
+   margin-bottom: 200px;
+}
+.holay{
+    width: 100%;
+    height: 400px;
+    background-color:#282979ae;
+
+    
+}
+.ho1,.h02{
+    color: white;
+}
+
+.ho0,.ho2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ho1{
+    font-size: 40px;
+    width: 600px;
+    text-align: center;
+}
+
+.h02{
+    width: 490px;
+    text-align: center;
+}
+
+/*--------------------3nd img------------------------------*/
+
+/*.twndimg{
+width: 100%;
+margin-bottom: 200px;
+}
+.twimg-txt{
+    background-image: url(imges/grlvacum.jpg);
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.t1{
+    font-size: 40px;
+}*/
+/*--------------------founder sec------------------------------*/
+.foun-sec{
+    width: 100%;
+    margin-bottom: 300px;
+    /*background-color: rgb(0, 255, 255);*/
+}
+.fo-sc{
+    width: 1320px;
+   /* background-color: rgb(76, 0, 255);*/
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.container0 {
+    position: relative;
+    width: 301px;
+    margin-left: 0px;
+    border-bottom: greenyellow ;
+  }
+  
+  .image0 {
+    opacity: 1;
+    display: block;
+    width: 300px;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    
+    border-bottom: greenyellow ;
+  }
+  
+  .middle0 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container0:hover .image0 {
+    opacity: 0.3;
+  }
+  
+  .container0:hover .middle0 {
+    opacity: 1;
+  }
+  
+  /**/
+  .team-div-cnt{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 27%;
+}
+
+.team-div-cnt a{
+    background-color: white !important;
+    color: #8DC741 !important;
+    border-radius: 5px;
+    margin: 10px 5px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+}
+
+.team-div-cnt a:hover{
+    background-color: #FFD532 !important;
+    color: #282979 !important;
+    overflow: hidden;
+}
+
+.team-div-cnt a:hover i{
+    animation: team-i-anime 0.7s;
+}
+
+@keyframes team-i-anime {
+    49%{
+        transform: translateY(200%);
+    }
+    50%{
+        transform: translateY(-200%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
+
+  /**/
+
+
+  .text0 {
+    background-color:#282979ae;
+    color: white;
+    font-size: 16px;
+    width: 280px;
+    height: 270px;
+    text-align: center;
+    
+    border-bottom: greenyellow ;
+  }
+  
+  .ft10{
+      position: absolute;top: 30%; left: 35%;
+  }
+  .ft20{
+      position: absolute;top: 40%;left: 42%;
+  }
+
+  
+  
